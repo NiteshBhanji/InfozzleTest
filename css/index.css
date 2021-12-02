@@ -1,0 +1,860 @@
+/* Gooogle Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/* Fonts */
+/* Main Colors */
+/* Font Colors */
+/* Link Decoration */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Default Property Values*/
+.wrapper, .HeroBanner .HeroBannerContent .HeroBannerOne, .OurProjectSection .TopOurProject, .OurProjectSection .ProjectSlider, .InvestorSection .InnerInvestorSection {
+  width: 72%;
+  margin: 0 auto 0;
+}
+
+.minIcons {
+  width: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+/* Main Index CSS Start Here */
+html, body {
+  margin: 0;
+  padding: 0;
+  left: 0;
+  top: 0;
+  overflow-x: hidden;
+}
+
+/* Header CSS */
+.UpperHeader {
+  padding: 8px 0;
+  background-color: #393939;
+  color: #ffffff;
+}
+
+.UpperHeader .wrapper, .UpperHeader .HeroBanner .HeroBannerContent .HeroBannerOne, .HeroBanner .HeroBannerContent .UpperHeader .HeroBannerOne, .UpperHeader .OurProjectSection .TopOurProject, .OurProjectSection .UpperHeader .TopOurProject, .UpperHeader .OurProjectSection .ProjectSlider, .OurProjectSection .UpperHeader .ProjectSlider, .UpperHeader .InvestorSection .InnerInvestorSection, .InvestorSection .UpperHeader .InnerInvestorSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.UpperHeader .wrapper .UpperHeaderContact span, .UpperHeader .HeroBanner .HeroBannerContent .HeroBannerOne .UpperHeaderContact span, .HeroBanner .HeroBannerContent .UpperHeader .HeroBannerOne .UpperHeaderContact span, .UpperHeader .OurProjectSection .TopOurProject .UpperHeaderContact span, .OurProjectSection .UpperHeader .TopOurProject .UpperHeaderContact span, .UpperHeader .OurProjectSection .ProjectSlider .UpperHeaderContact span, .OurProjectSection .UpperHeader .ProjectSlider .UpperHeaderContact span, .UpperHeader .InvestorSection .InnerInvestorSection .UpperHeaderContact span, .InvestorSection .UpperHeader .InnerInvestorSection .UpperHeaderContact span {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-right: 24px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 0.8em;
+}
+
+.UpperHeader .wrapper .UpperHeaderContact span img, .UpperHeader .HeroBanner .HeroBannerContent .HeroBannerOne .UpperHeaderContact span img, .HeroBanner .HeroBannerContent .UpperHeader .HeroBannerOne .UpperHeaderContact span img, .UpperHeader .OurProjectSection .TopOurProject .UpperHeaderContact span img, .OurProjectSection .UpperHeader .TopOurProject .UpperHeaderContact span img, .UpperHeader .OurProjectSection .ProjectSlider .UpperHeaderContact span img, .OurProjectSection .UpperHeader .ProjectSlider .UpperHeaderContact span img, .UpperHeader .InvestorSection .InnerInvestorSection .UpperHeaderContact span img, .InvestorSection .UpperHeader .InnerInvestorSection .UpperHeaderContact span img {
+  margin-right: 12px;
+}
+
+.UpperHeader .wrapper .UpperHeaderSocialIcon img, .UpperHeader .HeroBanner .HeroBannerContent .HeroBannerOne .UpperHeaderSocialIcon img, .HeroBanner .HeroBannerContent .UpperHeader .HeroBannerOne .UpperHeaderSocialIcon img, .UpperHeader .OurProjectSection .TopOurProject .UpperHeaderSocialIcon img, .OurProjectSection .UpperHeader .TopOurProject .UpperHeaderSocialIcon img, .UpperHeader .OurProjectSection .ProjectSlider .UpperHeaderSocialIcon img, .OurProjectSection .UpperHeader .ProjectSlider .UpperHeaderSocialIcon img, .UpperHeader .InvestorSection .InnerInvestorSection .UpperHeaderSocialIcon img, .InvestorSection .UpperHeader .InnerInvestorSection .UpperHeaderSocialIcon img {
+  margin-left: 16px;
+}
+
+.BottomHeader {
+  padding: 12px 0;
+  background-color: #ffffff;
+}
+
+.BottomHeader .wrapper, .BottomHeader .HeroBanner .HeroBannerContent .HeroBannerOne, .HeroBanner .HeroBannerContent .BottomHeader .HeroBannerOne, .BottomHeader .OurProjectSection .TopOurProject, .OurProjectSection .BottomHeader .TopOurProject, .BottomHeader .OurProjectSection .ProjectSlider, .OurProjectSection .BottomHeader .ProjectSlider, .BottomHeader .InvestorSection .InnerInvestorSection, .InvestorSection .BottomHeader .InnerInvestorSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.BottomHeader .wrapper h1, .BottomHeader .HeroBanner .HeroBannerContent .HeroBannerOne h1, .HeroBanner .HeroBannerContent .BottomHeader .HeroBannerOne h1, .BottomHeader .OurProjectSection .TopOurProject h1, .OurProjectSection .BottomHeader .TopOurProject h1, .BottomHeader .OurProjectSection .ProjectSlider h1, .OurProjectSection .BottomHeader .ProjectSlider h1, .BottomHeader .InvestorSection .InnerInvestorSection h1, .InvestorSection .BottomHeader .InnerInvestorSection h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.BottomHeader .wrapper h1 img, .BottomHeader .HeroBanner .HeroBannerContent .HeroBannerOne h1 img, .HeroBanner .HeroBannerContent .BottomHeader .HeroBannerOne h1 img, .BottomHeader .OurProjectSection .TopOurProject h1 img, .OurProjectSection .BottomHeader .TopOurProject h1 img, .BottomHeader .OurProjectSection .ProjectSlider h1 img, .OurProjectSection .BottomHeader .ProjectSlider h1 img, .BottomHeader .InvestorSection .InnerInvestorSection h1 img, .InvestorSection .BottomHeader .InnerInvestorSection h1 img {
+  width: 6.5em;
+}
+
+.BottomHeader .wrapper .HeaderMenu span, .BottomHeader .HeroBanner .HeroBannerContent .HeroBannerOne .HeaderMenu span, .HeroBanner .HeroBannerContent .BottomHeader .HeroBannerOne .HeaderMenu span, .BottomHeader .OurProjectSection .TopOurProject .HeaderMenu span, .OurProjectSection .BottomHeader .TopOurProject .HeaderMenu span, .BottomHeader .OurProjectSection .ProjectSlider .HeaderMenu span, .OurProjectSection .BottomHeader .ProjectSlider .HeaderMenu span, .BottomHeader .InvestorSection .InnerInvestorSection .HeaderMenu span, .InvestorSection .BottomHeader .InnerInvestorSection .HeaderMenu span {
+  margin-left: 32px;
+  font-family: "Inter", sans-serif;
+  font-size: 0.9em;
+  font-weight: 600;
+  color: #393939;
+}
+
+.BottomHeader .wrapper .HeaderMenu span:hover, .BottomHeader .HeroBanner .HeroBannerContent .HeroBannerOne .HeaderMenu span:hover, .HeroBanner .HeroBannerContent .BottomHeader .HeroBannerOne .HeaderMenu span:hover, .BottomHeader .OurProjectSection .TopOurProject .HeaderMenu span:hover, .OurProjectSection .BottomHeader .TopOurProject .HeaderMenu span:hover, .BottomHeader .OurProjectSection .ProjectSlider .HeaderMenu span:hover, .OurProjectSection .BottomHeader .ProjectSlider .HeaderMenu span:hover, .BottomHeader .InvestorSection .InnerInvestorSection .HeaderMenu span:hover, .InvestorSection .BottomHeader .InnerInvestorSection .HeaderMenu span:hover {
+  color: #eb870c;
+}
+
+.BottomHeader .wrapper .HeaderMenu button, .BottomHeader .HeroBanner .HeroBannerContent .HeroBannerOne .HeaderMenu button, .HeroBanner .HeroBannerContent .BottomHeader .HeroBannerOne .HeaderMenu button, .BottomHeader .OurProjectSection .TopOurProject .HeaderMenu button, .OurProjectSection .BottomHeader .TopOurProject .HeaderMenu button, .BottomHeader .OurProjectSection .ProjectSlider .HeaderMenu button, .OurProjectSection .BottomHeader .ProjectSlider .HeaderMenu button, .BottomHeader .InvestorSection .InnerInvestorSection .HeaderMenu button, .InvestorSection .BottomHeader .InnerInvestorSection .HeaderMenu button {
+  margin-left: 32px;
+  padding: 12px 24px;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-size: 0.9em;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #eb870c;
+  cursor: pointer;
+}
+
+/*Section CSS*/
+/*Hero Banner Section*/
+.HeroBanner .HeroBannerContent .HeroBannerOne {
+  min-height: calc(100vh - 120px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  font-family: "Inter", sans-serif;
+}
+
+.HeroBanner .HeroBannerContent .HeroBannerOne p {
+  margin: 20% 0 1% 0;
+  color: #eb870c;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 0.9em;
+  letter-spacing: 10px;
+}
+
+.HeroBanner .HeroBannerContent .HeroBannerOne h2 {
+  margin-bottom: 1%;
+  font-size: 2.5em;
+  line-height: 1.5em;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.HeroBanner .HeroBannerContent .HeroBannerOne button {
+  padding: 12px 24px;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-size: 0.9em;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #eb870c;
+  cursor: pointer;
+}
+
+.HeroBanner .HeroBannerContent .BackgroundBannerOne {
+  background-image: url("../images/01.png");
+  background-size: cover;
+  background-position: top;
+}
+
+.HeroBanner .HeroBannerContent .BackgroundBannerTwo {
+  background-image: url("../images/01.png");
+  background-size: cover;
+  background-position: top;
+}
+
+.HeroBanner .HeroBannerContent .BackgroundBannerThree {
+  background-image: url("../images/01.png");
+  background-size: cover;
+  background-position: top;
+}
+
+.HeroBanner .arrow_prev img {
+  width: 48px;
+  position: absolute;
+  top: 54%;
+  left: 2%;
+  cursor: pointer;
+}
+
+.HeroBanner .arrow_next img {
+  width: 48px;
+  position: absolute;
+  top: 54%;
+  right: 2%;
+  cursor: pointer;
+}
+
+/*About Us Section*/
+.AboutUsSection h3 {
+  margin: 8% 0 0 0;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 12px;
+  font-size: 0.8em;
+}
+
+.AboutUsSection .InnerAboutUsSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: -2% 0 6% 0;
+}
+
+.AboutUsSection .InnerAboutUsSection .AboutPhone {
+  margin: 0px -32px 0 32px;
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 0.8em;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #999999;
+}
+
+.AboutUsSection .InnerAboutUsSection article .wrapper, .AboutUsSection .InnerAboutUsSection article .HeroBanner .HeroBannerContent .HeroBannerOne, .HeroBanner .HeroBannerContent .AboutUsSection .InnerAboutUsSection article .HeroBannerOne, .AboutUsSection .InnerAboutUsSection article .OurProjectSection .TopOurProject, .OurProjectSection .AboutUsSection .InnerAboutUsSection article .TopOurProject, .AboutUsSection .InnerAboutUsSection article .OurProjectSection .ProjectSlider, .OurProjectSection .AboutUsSection .InnerAboutUsSection article .ProjectSlider, .AboutUsSection .InnerAboutUsSection article .InvestorSection .InnerInvestorSection, .InvestorSection .AboutUsSection .InnerAboutUsSection article .InnerInvestorSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.AboutUsSection .InnerAboutUsSection article .wrapper .AboutImageOne, .AboutUsSection .InnerAboutUsSection article .HeroBanner .HeroBannerContent .HeroBannerOne .AboutImageOne, .HeroBanner .HeroBannerContent .AboutUsSection .InnerAboutUsSection article .HeroBannerOne .AboutImageOne, .AboutUsSection .InnerAboutUsSection article .OurProjectSection .TopOurProject .AboutImageOne, .OurProjectSection .AboutUsSection .InnerAboutUsSection article .TopOurProject .AboutImageOne, .AboutUsSection .InnerAboutUsSection article .OurProjectSection .ProjectSlider .AboutImageOne, .OurProjectSection .AboutUsSection .InnerAboutUsSection article .ProjectSlider .AboutImageOne, .AboutUsSection .InnerAboutUsSection article .InvestorSection .InnerInvestorSection .AboutImageOne, .InvestorSection .AboutUsSection .InnerAboutUsSection article .InnerInvestorSection .AboutImageOne {
+  width: 20em;
+  outline: 2px solid #eb870c;
+  outline-offset: -20px;
+}
+
+.AboutUsSection .InnerAboutUsSection article .wrapper .AboutImageTwo, .AboutUsSection .InnerAboutUsSection article .HeroBanner .HeroBannerContent .HeroBannerOne .AboutImageTwo, .HeroBanner .HeroBannerContent .AboutUsSection .InnerAboutUsSection article .HeroBannerOne .AboutImageTwo, .AboutUsSection .InnerAboutUsSection article .OurProjectSection .TopOurProject .AboutImageTwo, .OurProjectSection .AboutUsSection .InnerAboutUsSection article .TopOurProject .AboutImageTwo, .AboutUsSection .InnerAboutUsSection article .OurProjectSection .ProjectSlider .AboutImageTwo, .OurProjectSection .AboutUsSection .InnerAboutUsSection article .ProjectSlider .AboutImageTwo, .AboutUsSection .InnerAboutUsSection article .InvestorSection .InnerInvestorSection .AboutImageTwo, .InvestorSection .AboutUsSection .InnerAboutUsSection article .InnerInvestorSection .AboutImageTwo {
+  width: 10em;
+  margin: 291px 0 0 -76px;
+}
+
+.AboutUsSection .InnerAboutUsSection article .wrapper .ArticleRight, .AboutUsSection .InnerAboutUsSection article .HeroBanner .HeroBannerContent .HeroBannerOne .ArticleRight, .HeroBanner .HeroBannerContent .AboutUsSection .InnerAboutUsSection article .HeroBannerOne .ArticleRight, .AboutUsSection .InnerAboutUsSection article .OurProjectSection .TopOurProject .ArticleRight, .OurProjectSection .AboutUsSection .InnerAboutUsSection article .TopOurProject .ArticleRight, .AboutUsSection .InnerAboutUsSection article .OurProjectSection .ProjectSlider .ArticleRight, .OurProjectSection .AboutUsSection .InnerAboutUsSection article .ProjectSlider .ArticleRight, .AboutUsSection .InnerAboutUsSection article .InvestorSection .InnerInvestorSection .ArticleRight, .InvestorSection .AboutUsSection .InnerAboutUsSection article .InnerInvestorSection .ArticleRight {
+  margin: 0 -6% 0 6%;
+  font-family: "Roboto", sans-serif;
+}
+
+.AboutUsSection .InnerAboutUsSection article .wrapper .ArticleRight .ArticleHeading, .AboutUsSection .InnerAboutUsSection article .HeroBanner .HeroBannerContent .HeroBannerOne .ArticleRight .ArticleHeading, .HeroBanner .HeroBannerContent .AboutUsSection .InnerAboutUsSection article .HeroBannerOne .ArticleRight .ArticleHeading, .AboutUsSection .InnerAboutUsSection article .OurProjectSection .TopOurProject .ArticleRight .ArticleHeading, .OurProjectSection .AboutUsSection .InnerAboutUsSection article .TopOurProject .ArticleRight .ArticleHeading, .AboutUsSection .InnerAboutUsSection article .OurProjectSection .ProjectSlider .ArticleRight .ArticleHeading, .OurProjectSection .AboutUsSection .InnerAboutUsSection article .ProjectSlider .ArticleRight .ArticleHeading, .AboutUsSection .InnerAboutUsSection article .InvestorSection .InnerInvestorSection .ArticleRight .ArticleHeading, .InvestorSection .AboutUsSection .InnerAboutUsSection article .InnerInvestorSection .ArticleRight .ArticleHeading {
+  margin: 8% 0;
+  padding-left: 16px;
+  border-left: 8px solid #eb870c;
+}
+
+.AboutUsSection .InnerAboutUsSection article .wrapper .ArticleRight .ArticleHeading h4, .AboutUsSection .InnerAboutUsSection article .HeroBanner .HeroBannerContent .HeroBannerOne .ArticleRight .ArticleHeading h4, .HeroBanner .HeroBannerContent .AboutUsSection .InnerAboutUsSection article .HeroBannerOne .ArticleRight .ArticleHeading h4, .AboutUsSection .InnerAboutUsSection article .OurProjectSection .TopOurProject .ArticleRight .ArticleHeading h4, .OurProjectSection .AboutUsSection .InnerAboutUsSection article .TopOurProject .ArticleRight .ArticleHeading h4, .AboutUsSection .InnerAboutUsSection article .OurProjectSection .ProjectSlider .ArticleRight .ArticleHeading h4, .OurProjectSection .AboutUsSection .InnerAboutUsSection article .ProjectSlider .ArticleRight .ArticleHeading h4, .AboutUsSection .InnerAboutUsSection article .InvestorSection .InnerInvestorSection .ArticleRight .ArticleHeading h4, .InvestorSection .AboutUsSection .InnerAboutUsSection article .InnerInvestorSection .ArticleRight .ArticleHeading h4 {
+  margin: 0 0 8px 0;
+  padding: 0;
+  font-size: 0.9em;
+  color: #eb870c;
+}
+
+.AboutUsSection .InnerAboutUsSection article .wrapper .ArticleRight .ArticleHeading h2, .AboutUsSection .InnerAboutUsSection article .HeroBanner .HeroBannerContent .HeroBannerOne .ArticleRight .ArticleHeading h2, .HeroBanner .HeroBannerContent .AboutUsSection .InnerAboutUsSection article .HeroBannerOne .ArticleRight .ArticleHeading h2, .AboutUsSection .InnerAboutUsSection article .OurProjectSection .TopOurProject .ArticleRight .ArticleHeading h2, .OurProjectSection .AboutUsSection .InnerAboutUsSection article .TopOurProject .ArticleRight .ArticleHeading h2, .AboutUsSection .InnerAboutUsSection article .OurProjectSection .ProjectSlider .ArticleRight .ArticleHeading h2, .OurProjectSection .AboutUsSection .InnerAboutUsSection article .ProjectSlider .ArticleRight .ArticleHeading h2, .AboutUsSection .InnerAboutUsSection article .InvestorSection .InnerInvestorSection .ArticleRight .ArticleHeading h2, .InvestorSection .AboutUsSection .InnerAboutUsSection article .InnerInvestorSection .ArticleRight .ArticleHeading h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 2em;
+}
+
+.AboutUsSection .InnerAboutUsSection article .wrapper .ArticleRight p, .AboutUsSection .InnerAboutUsSection article .HeroBanner .HeroBannerContent .HeroBannerOne .ArticleRight p, .HeroBanner .HeroBannerContent .AboutUsSection .InnerAboutUsSection article .HeroBannerOne .ArticleRight p, .AboutUsSection .InnerAboutUsSection article .OurProjectSection .TopOurProject .ArticleRight p, .OurProjectSection .AboutUsSection .InnerAboutUsSection article .TopOurProject .ArticleRight p, .AboutUsSection .InnerAboutUsSection article .OurProjectSection .ProjectSlider .ArticleRight p, .OurProjectSection .AboutUsSection .InnerAboutUsSection article .ProjectSlider .ArticleRight p, .AboutUsSection .InnerAboutUsSection article .InvestorSection .InnerInvestorSection .ArticleRight p, .InvestorSection .AboutUsSection .InnerAboutUsSection article .InnerInvestorSection .ArticleRight p {
+  margin: 0;
+  padding-right: 8%;
+  color: #999999;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.8em;
+  line-height: 18px;
+}
+
+.AboutUsSection .InnerAboutUsSection article .wrapper .ArticleRight .AboutPoints span, .AboutUsSection .InnerAboutUsSection article .HeroBanner .HeroBannerContent .HeroBannerOne .ArticleRight .AboutPoints span, .HeroBanner .HeroBannerContent .AboutUsSection .InnerAboutUsSection article .HeroBannerOne .ArticleRight .AboutPoints span, .AboutUsSection .InnerAboutUsSection article .OurProjectSection .TopOurProject .ArticleRight .AboutPoints span, .OurProjectSection .AboutUsSection .InnerAboutUsSection article .TopOurProject .ArticleRight .AboutPoints span, .AboutUsSection .InnerAboutUsSection article .OurProjectSection .ProjectSlider .ArticleRight .AboutPoints span, .OurProjectSection .AboutUsSection .InnerAboutUsSection article .ProjectSlider .ArticleRight .AboutPoints span, .AboutUsSection .InnerAboutUsSection article .InvestorSection .InnerInvestorSection .ArticleRight .AboutPoints span, .InvestorSection .AboutUsSection .InnerAboutUsSection article .InnerInvestorSection .ArticleRight .AboutPoints span {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 6% 6% 0 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  font-size: 0.7em;
+}
+
+.AboutUsSection .InnerAboutUsSection article .wrapper .ArticleRight .AboutPoints span img, .AboutUsSection .InnerAboutUsSection article .HeroBanner .HeroBannerContent .HeroBannerOne .ArticleRight .AboutPoints span img, .HeroBanner .HeroBannerContent .AboutUsSection .InnerAboutUsSection article .HeroBannerOne .ArticleRight .AboutPoints span img, .AboutUsSection .InnerAboutUsSection article .OurProjectSection .TopOurProject .ArticleRight .AboutPoints span img, .OurProjectSection .AboutUsSection .InnerAboutUsSection article .TopOurProject .ArticleRight .AboutPoints span img, .AboutUsSection .InnerAboutUsSection article .OurProjectSection .ProjectSlider .ArticleRight .AboutPoints span img, .OurProjectSection .AboutUsSection .InnerAboutUsSection article .ProjectSlider .ArticleRight .AboutPoints span img, .AboutUsSection .InnerAboutUsSection article .InvestorSection .InnerInvestorSection .ArticleRight .AboutPoints span img, .InvestorSection .AboutUsSection .InnerAboutUsSection article .InnerInvestorSection .ArticleRight .AboutPoints span img {
+  margin-right: 8px;
+  width: 32px;
+}
+
+.AboutUsSection .InnerAboutUsSection .AboutEmail {
+  margin: 0 32px 0 -32px;
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 0.8em;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #999999;
+}
+
+/*Our Project Section*/
+.OurProjectSection {
+  background-color: #f4f4f4;
+}
+
+.OurProjectSection .TopOurProject {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 8% 0 0 0;
+}
+
+.OurProjectSection .TopOurProject h3 {
+  margin: 0;
+  font-size: 2em;
+  font-weight: 800;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+}
+
+.OurProjectSection .TopOurProject h3 span {
+  color: #eb870c;
+}
+
+.OurProjectSection .TopOurProject h3:after {
+  content: '\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0';
+  -webkit-text-decoration: line-through 1px;
+          text-decoration: line-through 1px;
+  margin: 0 0 0 12px;
+}
+
+.OurProjectSection .TopOurProject .ProjectSwitchButtons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.OurProjectSection .TopOurProject .ProjectSwitchButtons button {
+  padding: 12px 48px;
+  border: none;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  text-transform: uppercase;
+}
+
+.OurProjectSection .TopOurProject .ProjectSwitchButtons .ButtonOne {
+  background-color: #eb870c;
+  cursor: pointer;
+}
+
+.OurProjectSection .TopOurProject .ProjectSwitchButtons .ButtonTwo {
+  background-color: #393939;
+  cursor: pointer;
+}
+
+.OurProjectSection .ProjectArrows {
+  width: 100%;
+  margin-top: 16%;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  z-index: 10;
+}
+
+.OurProjectSection .ProjectArrows .Projarrow_prev img {
+  width: 20px;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  cursor: pointer;
+  margin-left: 2em;
+}
+
+.OurProjectSection .ProjectArrows .Projarrow_next img {
+  width: 20px;
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+  cursor: pointer;
+  margin-right: 2em;
+}
+
+.OurProjectSection .ProjectSlider {
+  padding: 4% 0 8% 0;
+  font-family: "Inter", sans-serif;
+}
+
+.OurProjectSection .ProjectSlider .ProjectWindow {
+  height: 400px;
+  position: relative;
+}
+
+.OurProjectSection .ProjectSlider .ProjectWindow h5 {
+  position: absolute;
+  bottom: 42px;
+  left: 28px;
+  color: #eb870c;
+  font-size: 1em;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.OurProjectSection .ProjectSlider .ProjectWindow p {
+  position: absolute;
+  bottom: 8px;
+  left: 28px;
+  font-size: 0.8em;
+  font-weight: 300;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.OurProjectSection .ProjectSlider .ProjectWindowOne {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#000000)), url("../images/04.png");
+  background-image: linear-gradient(to bottom, transparent, #000000), url("../images/04.png");
+  background-size: cover;
+  background-position: bottom;
+}
+
+.OurProjectSection .ProjectSlider .ProjectWindowtTwo {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#000000)), url("../images/05.png");
+  background-image: linear-gradient(to bottom, transparent, #000000), url("../images/05.png");
+  background-size: cover;
+  background-position: bottom;
+}
+
+.OurProjectSection .ProjectSlider .ProjectWindowThree {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#000000)), url("../images/06.png");
+  background-image: linear-gradient(to bottom, transparent, #000000), url("../images/06.png");
+  background-size: cover;
+  background-position: bottom;
+}
+
+.OurProjectSection .ProjectSlider .ProjectWindowFour {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#000000)), url("../images/07.png");
+  background-image: linear-gradient(to bottom, transparent, #000000), url("../images/07.png");
+  background-size: cover;
+  background-position: bottom;
+}
+
+/*Investor Section Start Here*/
+.InvestorSection .HRLine {
+  position: absolute;
+  width: 8%;
+  z-index: 10;
+  border-bottom: 1px solid #999999;
+  margin-top: 10%;
+}
+
+.InvestorSection .InnerInvestorSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 8% 0;
+}
+
+.InvestorSection .InnerInvestorSection .InvestorSectionHeading {
+  padding-left: 16px;
+  border-left: 8px solid #eb870c;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 8%;
+}
+
+.InvestorSection .InnerInvestorSection .InvestorSectionHeading h5 {
+  margin-bottom: 2%;
+  color: #999999;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  letter-spacing: 8px;
+}
+
+.InvestorSection .InnerInvestorSection .InvestorSectionHeading h2 {
+  font-size: 2.5em;
+}
+
+.InvestorSection .InnerInvestorSection .InvestorSectionHeading h3 {
+  margin-top: -2%;
+  font-size: 1.6em;
+}
+
+.InvestorSection .InnerInvestorSection .InvestorSectionHeading h3 span {
+  font-size: 1.5em;
+  color: #eb870c;
+}
+
+.InvestorSection p {
+  margin-bottom: 8%;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 0.8em;
+  line-height: 2em;
+  color: #999999;
+}
+
+.InvestorSection button {
+  padding: 12px 48px;
+  border: none;
+  color: #ffffff;
+  background-color: #eb870c;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 0.8em;
+  cursor: pointer;
+}
+
+.InvestorSection .investorsImage {
+  border: 2px solid #eb870c;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.InvestorSection .investorsImage img {
+  height: 18em;
+  outline: 2px solid #eb870c;
+  outline-offset: -20px;
+  margin: 18px 20px -24px -20px;
+}
+
+.TestimonialSection .TestimonialArrows {
+  width: 100%;
+  margin-top: 20%;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  z-index: 10;
+}
+
+.TestimonialSection .TestimonialArrows .Testarrow_prev img {
+  width: 48px;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  cursor: pointer;
+  margin-left: 15em;
+}
+
+.TestimonialSection .TestimonialArrows .Testarrow_next img {
+  width: 48px;
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+  cursor: pointer;
+  margin-right: 15em;
+}
+
+.TestimonialSection .TestimonialMiddle {
+  height: 38em;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  background-image: url(../images/09.png);
+  background-position: top;
+  background-size: cover;
+  color: #ffffff;
+}
+
+.TestimonialSection .TestimonialMiddle img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 8%;
+  height: 3em;
+}
+
+.TestimonialSection .TestimonialMiddle h4 {
+  font-size: 2em;
+  font-weight: 500;
+  margin: 4% 0 2% 0;
+}
+
+.TestimonialSection .TestimonialMiddle h4 span {
+  color: #eb870c;
+}
+
+.TestimonialSection .TestimonialMiddle p {
+  font-weight: 400;
+  font-size: 0.8em;
+  line-height: 1.8em;
+  margin-bottom: 6%;
+}
+
+.TestimonialSection .TestimonialMiddle .Reviewer {
+  font-weight: 600;
+  color: #eb870c;
+}
+
+.TestimonialSection .TestimonialMiddle .CompanyName {
+  border-bottom: 1px solid #ffffff;
+}
+
+/*Career Section Start Here*/
+.CareerSection {
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #f4f4f4), color-stop(50%, #ffffff));
+  background: linear-gradient(90deg, #f4f4f4 50%, #ffffff 50%);
+}
+
+.CareerSection .wrapper, .CareerSection .HeroBanner .HeroBannerContent .HeroBannerOne, .HeroBanner .HeroBannerContent .CareerSection .HeroBannerOne, .CareerSection .OurProjectSection .TopOurProject, .OurProjectSection .CareerSection .TopOurProject, .CareerSection .OurProjectSection .ProjectSlider, .OurProjectSection .CareerSection .ProjectSlider, .CareerSection .InvestorSection .InnerInvestorSection, .InvestorSection .CareerSection .InnerInvestorSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 8% 0;
+}
+
+.CareerSection .wrapper .CareerFormSection, .CareerSection .HeroBanner .HeroBannerContent .HeroBannerOne .CareerFormSection, .HeroBanner .HeroBannerContent .CareerSection .HeroBannerOne .CareerFormSection, .CareerSection .OurProjectSection .TopOurProject .CareerFormSection, .OurProjectSection .CareerSection .TopOurProject .CareerFormSection, .CareerSection .OurProjectSection .ProjectSlider .CareerFormSection, .OurProjectSection .CareerSection .ProjectSlider .CareerFormSection, .CareerSection .InvestorSection .InnerInvestorSection .CareerFormSection, .InvestorSection .CareerSection .InnerInvestorSection .CareerFormSection {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.CareerSection .wrapper .CareerFormSection p, .CareerSection .HeroBanner .HeroBannerContent .HeroBannerOne .CareerFormSection p, .HeroBanner .HeroBannerContent .CareerSection .HeroBannerOne .CareerFormSection p, .CareerSection .OurProjectSection .TopOurProject .CareerFormSection p, .OurProjectSection .CareerSection .TopOurProject .CareerFormSection p, .CareerSection .OurProjectSection .ProjectSlider .CareerFormSection p, .OurProjectSection .CareerSection .ProjectSlider .CareerFormSection p, .CareerSection .InvestorSection .InnerInvestorSection .CareerFormSection p, .InvestorSection .CareerSection .InnerInvestorSection .CareerFormSection p {
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 0.8em;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  color: #999999;
+  padding: 32px 0 0 42px;
+}
+
+.CareerSection .wrapper .CareerFormSection form, .CareerSection .HeroBanner .HeroBannerContent .HeroBannerOne .CareerFormSection form, .HeroBanner .HeroBannerContent .CareerSection .HeroBannerOne .CareerFormSection form, .CareerSection .OurProjectSection .TopOurProject .CareerFormSection form, .OurProjectSection .CareerSection .TopOurProject .CareerFormSection form, .CareerSection .OurProjectSection .ProjectSlider .CareerFormSection form, .OurProjectSection .CareerSection .ProjectSlider .CareerFormSection form, .CareerSection .InvestorSection .InnerInvestorSection .CareerFormSection form, .InvestorSection .CareerSection .InnerInvestorSection .CareerFormSection form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 22em;
+}
+
+.CareerSection .wrapper .CareerFormSection form input, .CareerSection .HeroBanner .HeroBannerContent .HeroBannerOne .CareerFormSection form input, .HeroBanner .HeroBannerContent .CareerSection .HeroBannerOne .CareerFormSection form input, .CareerSection .OurProjectSection .TopOurProject .CareerFormSection form input, .OurProjectSection .CareerSection .TopOurProject .CareerFormSection form input, .CareerSection .OurProjectSection .ProjectSlider .CareerFormSection form input, .OurProjectSection .CareerSection .ProjectSlider .CareerFormSection form input, .CareerSection .InvestorSection .InnerInvestorSection .CareerFormSection form input, .InvestorSection .CareerSection .InnerInvestorSection .CareerFormSection form input, .CareerSection .wrapper .CareerFormSection form select, .CareerSection .HeroBanner .HeroBannerContent .HeroBannerOne .CareerFormSection form select, .HeroBanner .HeroBannerContent .CareerSection .HeroBannerOne .CareerFormSection form select, .CareerSection .OurProjectSection .TopOurProject .CareerFormSection form select, .OurProjectSection .CareerSection .TopOurProject .CareerFormSection form select, .CareerSection .OurProjectSection .ProjectSlider .CareerFormSection form select, .OurProjectSection .CareerSection .ProjectSlider .CareerFormSection form select, .CareerSection .InvestorSection .InnerInvestorSection .CareerFormSection form select, .InvestorSection .CareerSection .InnerInvestorSection .CareerFormSection form select, .CareerSection .wrapper .CareerFormSection form textarea, .CareerSection .HeroBanner .HeroBannerContent .HeroBannerOne .CareerFormSection form textarea, .HeroBanner .HeroBannerContent .CareerSection .HeroBannerOne .CareerFormSection form textarea, .CareerSection .OurProjectSection .TopOurProject .CareerFormSection form textarea, .OurProjectSection .CareerSection .TopOurProject .CareerFormSection form textarea, .CareerSection .OurProjectSection .ProjectSlider .CareerFormSection form textarea, .OurProjectSection .CareerSection .ProjectSlider .CareerFormSection form textarea, .CareerSection .InvestorSection .InnerInvestorSection .CareerFormSection form textarea, .InvestorSection .CareerSection .InnerInvestorSection .CareerFormSection form textarea, .CareerSection .wrapper .CareerFormSection form button, .CareerSection .HeroBanner .HeroBannerContent .HeroBannerOne .CareerFormSection form button, .HeroBanner .HeroBannerContent .CareerSection .HeroBannerOne .CareerFormSection form button, .CareerSection .OurProjectSection .TopOurProject .CareerFormSection form button, .OurProjectSection .CareerSection .TopOurProject .CareerFormSection form button, .CareerSection .OurProjectSection .ProjectSlider .CareerFormSection form button, .OurProjectSection .CareerSection .ProjectSlider .CareerFormSection form button, .CareerSection .InvestorSection .InnerInvestorSection .CareerFormSection form button, .InvestorSection .CareerSection .InnerInvestorSection .CareerFormSection form button {
+  border: none;
+  outline: none;
+  padding: 12px 0px 12px 12px;
+  margin-bottom: 1em;
+  color: #999999;
+}
+
+.CareerSection .wrapper .CareerFormSection form select, .CareerSection .HeroBanner .HeroBannerContent .HeroBannerOne .CareerFormSection form select, .HeroBanner .HeroBannerContent .CareerSection .HeroBannerOne .CareerFormSection form select, .CareerSection .OurProjectSection .TopOurProject .CareerFormSection form select, .OurProjectSection .CareerSection .TopOurProject .CareerFormSection form select, .CareerSection .OurProjectSection .ProjectSlider .CareerFormSection form select, .OurProjectSection .CareerSection .ProjectSlider .CareerFormSection form select, .CareerSection .InvestorSection .InnerInvestorSection .CareerFormSection form select, .InvestorSection .CareerSection .InnerInvestorSection .CareerFormSection form select {
+  color: #999999;
+  font-style: italic;
+}
+
+.CareerSection .wrapper .CareerFormSection form ::-webkit-input-placeholder, .CareerSection .HeroBanner .HeroBannerContent .HeroBannerOne .CareerFormSection form ::-webkit-input-placeholder, .HeroBanner .HeroBannerContent .CareerSection .HeroBannerOne .CareerFormSection form ::-webkit-input-placeholder, .CareerSection .OurProjectSection .TopOurProject .CareerFormSection form ::-webkit-input-placeholder, .OurProjectSection .CareerSection .TopOurProject .CareerFormSection form ::-webkit-input-placeholder, .CareerSection .OurProjectSection .ProjectSlider .CareerFormSection form ::-webkit-input-placeholder, .OurProjectSection .CareerSection .ProjectSlider .CareerFormSection form ::-webkit-input-placeholder, .CareerSection .InvestorSection .InnerInvestorSection .CareerFormSection form ::-webkit-input-placeholder, .InvestorSection .CareerSection .InnerInvestorSection .CareerFormSection form ::-webkit-input-placeholder {
+  color: #999999;
+  font-style: italic;
+}
+
+.CareerSection .wrapper .CareerFormSection form :-ms-input-placeholder, .CareerSection .HeroBanner .HeroBannerContent .HeroBannerOne .CareerFormSection form :-ms-input-placeholder, .HeroBanner .HeroBannerContent .CareerSection .HeroBannerOne .CareerFormSection form :-ms-input-placeholder, .CareerSection .OurProjectSection .TopOurProject .CareerFormSection form :-ms-input-placeholder, .OurProjectSection .CareerSection .TopOurProject .CareerFormSection form :-ms-input-placeholder, .CareerSection .OurProjectSection .ProjectSlider .CareerFormSection form :-ms-input-placeholder, .OurProjectSection .CareerSection .ProjectSlider .CareerFormSection form :-ms-input-placeholder, .CareerSection .InvestorSection .InnerInvestorSection .CareerFormSection form :-ms-input-placeholder, .InvestorSection .CareerSection .InnerInvestorSection .CareerFormSection form :-ms-input-placeholder {
+  color: #999999;
+  font-style: italic;
+}
+
+.CareerSection .wrapper .CareerFormSection form ::-ms-input-placeholder, .CareerSection .HeroBanner .HeroBannerContent .HeroBannerOne .CareerFormSection form ::-ms-input-placeholder, .HeroBanner .HeroBannerContent .CareerSection .HeroBannerOne .CareerFormSection form ::-ms-input-placeholder, .CareerSection .OurProjectSection .TopOurProject .CareerFormSection form ::-ms-input-placeholder, .OurProjectSection .CareerSection .TopOurProject .CareerFormSection form ::-ms-input-placeholder, .CareerSection .OurProjectSection .ProjectSlider .CareerFormSection form ::-ms-input-placeholder, .OurProjectSection .CareerSection .ProjectSlider .CareerFormSection form ::-ms-input-placeholder, .CareerSection .InvestorSection .InnerInvestorSection .CareerFormSection form ::-ms-input-placeholder, .InvestorSection .CareerSection .InnerInvestorSection .CareerFormSection form ::-ms-input-placeholder {
+  color: #999999;
+  font-style: italic;
+}
+
+.CareerSection .wrapper .CareerFormSection form ::placeholder, .CareerSection .HeroBanner .HeroBannerContent .HeroBannerOne .CareerFormSection form ::placeholder, .HeroBanner .HeroBannerContent .CareerSection .HeroBannerOne .CareerFormSection form ::placeholder, .CareerSection .OurProjectSection .TopOurProject .CareerFormSection form ::placeholder, .OurProjectSection .CareerSection .TopOurProject .CareerFormSection form ::placeholder, .CareerSection .OurProjectSection .ProjectSlider .CareerFormSection form ::placeholder, .OurProjectSection .CareerSection .ProjectSlider .CareerFormSection form ::placeholder, .CareerSection .InvestorSection .InnerInvestorSection .CareerFormSection form ::placeholder, .InvestorSection .CareerSection .InnerInvestorSection .CareerFormSection form ::placeholder {
+  color: #999999;
+  font-style: italic;
+}
+
+.CareerSection .wrapper .CareerFormSection form button, .CareerSection .HeroBanner .HeroBannerContent .HeroBannerOne .CareerFormSection form button, .HeroBanner .HeroBannerContent .CareerSection .HeroBannerOne .CareerFormSection form button, .CareerSection .OurProjectSection .TopOurProject .CareerFormSection form button, .OurProjectSection .CareerSection .TopOurProject .CareerFormSection form button, .CareerSection .OurProjectSection .ProjectSlider .CareerFormSection form button, .OurProjectSection .CareerSection .ProjectSlider .CareerFormSection form button, .CareerSection .InvestorSection .InnerInvestorSection .CareerFormSection form button, .InvestorSection .CareerSection .InnerInvestorSection .CareerFormSection form button {
+  color: #ffffff;
+  background-color: #eb870c;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 1em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.CareerSection .wrapper .CareerFormSection form textarea, .CareerSection .HeroBanner .HeroBannerContent .HeroBannerOne .CareerFormSection form textarea, .HeroBanner .HeroBannerContent .CareerSection .HeroBannerOne .CareerFormSection form textarea, .CareerSection .OurProjectSection .TopOurProject .CareerFormSection form textarea, .OurProjectSection .CareerSection .TopOurProject .CareerFormSection form textarea, .CareerSection .OurProjectSection .ProjectSlider .CareerFormSection form textarea, .OurProjectSection .CareerSection .ProjectSlider .CareerFormSection form textarea, .CareerSection .InvestorSection .InnerInvestorSection .CareerFormSection form textarea, .InvestorSection .CareerSection .InnerInvestorSection .CareerFormSection form textarea {
+  height: 6em;
+}
+
+.CareerSection .wrapper .CareerContactSection, .CareerSection .HeroBanner .HeroBannerContent .HeroBannerOne .CareerContactSection, .HeroBanner .HeroBannerContent .CareerSection .HeroBannerOne .CareerContactSection, .CareerSection .OurProjectSection .TopOurProject .CareerContactSection, .OurProjectSection .CareerSection .TopOurProject .CareerContactSection, .CareerSection .OurProjectSection .ProjectSlider .CareerContactSection, .OurProjectSection .CareerSection .ProjectSlider .CareerContactSection, .CareerSection .InvestorSection .InnerInvestorSection .CareerContactSection, .InvestorSection .CareerSection .InnerInvestorSection .CareerContactSection {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.CareerSection .wrapper .CareerContactSection span, .CareerSection .HeroBanner .HeroBannerContent .HeroBannerOne .CareerContactSection span, .HeroBanner .HeroBannerContent .CareerSection .HeroBannerOne .CareerContactSection span, .CareerSection .OurProjectSection .TopOurProject .CareerContactSection span, .OurProjectSection .CareerSection .TopOurProject .CareerContactSection span, .CareerSection .OurProjectSection .ProjectSlider .CareerContactSection span, .OurProjectSection .CareerSection .ProjectSlider .CareerContactSection span, .CareerSection .InvestorSection .InnerInvestorSection .CareerContactSection span, .InvestorSection .CareerSection .InnerInvestorSection .CareerContactSection span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 0.8em;
+  color: #999999;
+  margin: 0 0 6% 22%;
+}
+
+.CareerSection .wrapper .CareerContactSection span img, .CareerSection .HeroBanner .HeroBannerContent .HeroBannerOne .CareerContactSection span img, .HeroBanner .HeroBannerContent .CareerSection .HeroBannerOne .CareerContactSection span img, .CareerSection .OurProjectSection .TopOurProject .CareerContactSection span img, .OurProjectSection .CareerSection .TopOurProject .CareerContactSection span img, .CareerSection .OurProjectSection .ProjectSlider .CareerContactSection span img, .OurProjectSection .CareerSection .ProjectSlider .CareerContactSection span img, .CareerSection .InvestorSection .InnerInvestorSection .CareerContactSection span img, .InvestorSection .CareerSection .InnerInvestorSection .CareerContactSection span img {
+  height: 3em;
+  margin-right: 24px;
+}
+
+/*Footer Starts Here*/
+footer {
+  color: #ffffff;
+  background-color: #393939;
+}
+
+footer .wrapper, footer .HeroBanner .HeroBannerContent .HeroBannerOne, .HeroBanner .HeroBannerContent footer .HeroBannerOne, footer .OurProjectSection .TopOurProject, .OurProjectSection footer .TopOurProject, footer .OurProjectSection .ProjectSlider, .OurProjectSection footer .ProjectSlider, footer .InvestorSection .InnerInvestorSection, .InvestorSection footer .InnerInvestorSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 4% 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 0.8em;
+}
+
+footer .wrapper .FooterColumnOne, footer .HeroBanner .HeroBannerContent .HeroBannerOne .FooterColumnOne, .HeroBanner .HeroBannerContent footer .HeroBannerOne .FooterColumnOne, footer .OurProjectSection .TopOurProject .FooterColumnOne, .OurProjectSection footer .TopOurProject .FooterColumnOne, footer .OurProjectSection .ProjectSlider .FooterColumnOne, .OurProjectSection footer .ProjectSlider .FooterColumnOne, footer .InvestorSection .InnerInvestorSection .FooterColumnOne, .InvestorSection footer .InnerInvestorSection .FooterColumnOne {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-preferred-size: 34%;
+      flex-basis: 34%;
+}
+
+footer .wrapper .FooterColumnOne .FooterLogo, footer .HeroBanner .HeroBannerContent .HeroBannerOne .FooterColumnOne .FooterLogo, .HeroBanner .HeroBannerContent footer .HeroBannerOne .FooterColumnOne .FooterLogo, footer .OurProjectSection .TopOurProject .FooterColumnOne .FooterLogo, .OurProjectSection footer .TopOurProject .FooterColumnOne .FooterLogo, footer .OurProjectSection .ProjectSlider .FooterColumnOne .FooterLogo, .OurProjectSection footer .ProjectSlider .FooterColumnOne .FooterLogo, footer .InvestorSection .InnerInvestorSection .FooterColumnOne .FooterLogo, .InvestorSection footer .InnerInvestorSection .FooterColumnOne .FooterLogo {
+  width: 16em;
+  height: auto;
+  margin-bottom: 12%;
+}
+
+footer .wrapper .FooterColumnOne .FooterSocialIcons img, footer .HeroBanner .HeroBannerContent .HeroBannerOne .FooterColumnOne .FooterSocialIcons img, .HeroBanner .HeroBannerContent footer .HeroBannerOne .FooterColumnOne .FooterSocialIcons img, footer .OurProjectSection .TopOurProject .FooterColumnOne .FooterSocialIcons img, .OurProjectSection footer .TopOurProject .FooterColumnOne .FooterSocialIcons img, footer .OurProjectSection .ProjectSlider .FooterColumnOne .FooterSocialIcons img, .OurProjectSection footer .ProjectSlider .FooterColumnOne .FooterSocialIcons img, footer .InvestorSection .InnerInvestorSection .FooterColumnOne .FooterSocialIcons img, .InvestorSection footer .InnerInvestorSection .FooterColumnOne .FooterSocialIcons img {
+  margin-right: 16px;
+}
+
+footer .wrapper .FooterColumnTwo, footer .HeroBanner .HeroBannerContent .HeroBannerOne .FooterColumnTwo, .HeroBanner .HeroBannerContent footer .HeroBannerOne .FooterColumnTwo, footer .OurProjectSection .TopOurProject .FooterColumnTwo, .OurProjectSection footer .TopOurProject .FooterColumnTwo, footer .OurProjectSection .ProjectSlider .FooterColumnTwo, .OurProjectSection footer .ProjectSlider .FooterColumnTwo, footer .InvestorSection .InnerInvestorSection .FooterColumnTwo, .InvestorSection footer .InnerInvestorSection .FooterColumnTwo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-preferred-size: 22%;
+      flex-basis: 22%;
+}
+
+footer .wrapper .FooterColumnTwo span, footer .HeroBanner .HeroBannerContent .HeroBannerOne .FooterColumnTwo span, .HeroBanner .HeroBannerContent footer .HeroBannerOne .FooterColumnTwo span, footer .OurProjectSection .TopOurProject .FooterColumnTwo span, .OurProjectSection footer .TopOurProject .FooterColumnTwo span, footer .OurProjectSection .ProjectSlider .FooterColumnTwo span, .OurProjectSection footer .ProjectSlider .FooterColumnTwo span, footer .InvestorSection .InnerInvestorSection .FooterColumnTwo span, .InvestorSection footer .InnerInvestorSection .FooterColumnTwo span {
+  margin-bottom: 1em;
+}
+
+footer .wrapper .FooterColumnThree, footer .HeroBanner .HeroBannerContent .HeroBannerOne .FooterColumnThree, .HeroBanner .HeroBannerContent footer .HeroBannerOne .FooterColumnThree, footer .OurProjectSection .TopOurProject .FooterColumnThree, .OurProjectSection footer .TopOurProject .FooterColumnThree, footer .OurProjectSection .ProjectSlider .FooterColumnThree, .OurProjectSection footer .ProjectSlider .FooterColumnThree, footer .InvestorSection .InnerInvestorSection .FooterColumnThree, .InvestorSection footer .InnerInvestorSection .FooterColumnThree {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-preferred-size: 22%;
+      flex-basis: 22%;
+}
+
+footer .wrapper .FooterColumnThree span, footer .HeroBanner .HeroBannerContent .HeroBannerOne .FooterColumnThree span, .HeroBanner .HeroBannerContent footer .HeroBannerOne .FooterColumnThree span, footer .OurProjectSection .TopOurProject .FooterColumnThree span, .OurProjectSection footer .TopOurProject .FooterColumnThree span, footer .OurProjectSection .ProjectSlider .FooterColumnThree span, .OurProjectSection footer .ProjectSlider .FooterColumnThree span, footer .InvestorSection .InnerInvestorSection .FooterColumnThree span, .InvestorSection footer .InnerInvestorSection .FooterColumnThree span {
+  margin-bottom: 1em;
+}
+
+footer .wrapper .FooterColumnFour, footer .HeroBanner .HeroBannerContent .HeroBannerOne .FooterColumnFour, .HeroBanner .HeroBannerContent footer .HeroBannerOne .FooterColumnFour, footer .OurProjectSection .TopOurProject .FooterColumnFour, .OurProjectSection footer .TopOurProject .FooterColumnFour, footer .OurProjectSection .ProjectSlider .FooterColumnFour, .OurProjectSection footer .ProjectSlider .FooterColumnFour, footer .InvestorSection .InnerInvestorSection .FooterColumnFour, .InvestorSection footer .InnerInvestorSection .FooterColumnFour {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-preferred-size: 22%;
+      flex-basis: 22%;
+}
+
+footer .wrapper .FooterColumnFour span, footer .HeroBanner .HeroBannerContent .HeroBannerOne .FooterColumnFour span, .HeroBanner .HeroBannerContent footer .HeroBannerOne .FooterColumnFour span, footer .OurProjectSection .TopOurProject .FooterColumnFour span, .OurProjectSection footer .TopOurProject .FooterColumnFour span, footer .OurProjectSection .ProjectSlider .FooterColumnFour span, .OurProjectSection footer .ProjectSlider .FooterColumnFour span, footer .InvestorSection .InnerInvestorSection .FooterColumnFour span, .InvestorSection footer .InnerInvestorSection .FooterColumnFour span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1em;
+}
+
+footer .wrapper .FooterColumnFour span img, footer .HeroBanner .HeroBannerContent .HeroBannerOne .FooterColumnFour span img, .HeroBanner .HeroBannerContent footer .HeroBannerOne .FooterColumnFour span img, footer .OurProjectSection .TopOurProject .FooterColumnFour span img, .OurProjectSection footer .TopOurProject .FooterColumnFour span img, footer .OurProjectSection .ProjectSlider .FooterColumnFour span img, .OurProjectSection footer .ProjectSlider .FooterColumnFour span img, footer .InvestorSection .InnerInvestorSection .FooterColumnFour span img, .InvestorSection footer .InnerInvestorSection .FooterColumnFour span img {
+  height: 16px;
+  margin-right: 12px;
+}
+
+footer .footerBottom {
+  background-color: #2d2d2d;
+}
+
+footer .footerBottom p {
+  margin: 0;
+  padding: 1.5em 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 0.8em;
+  text-align: center;
+}
+/*# sourceMappingURL=index.css.map */

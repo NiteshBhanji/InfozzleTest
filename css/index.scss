@@ -1,0 +1,768 @@
+/* Gooogle Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Fonts */
+$PrimaryFont: 'Inter', sans-serif;
+$SecondaryFont: 'Roboto', sans-serif;
+
+/* Main Colors */
+$PrimaryMainColor: #eb870c;
+$SecondaryMainColor: #f67f21;
+
+/* Font Colors */
+$PrimaryFontColor: #eb870c;
+$SecondFontColor: #999999;
+$ThirdFontColor: #ffffff;
+$FourthFontColor: #393939;
+
+/* Link Decoration */
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* Default Property Values*/
+.wrapper{
+    width: 72%;
+    margin: 0 auto 0;
+}
+
+.minIcons{
+    width: 16px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* Main Index CSS Start Here */
+html,body{
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
+    overflow-x: hidden;
+}
+
+
+/* Header CSS */
+.UpperHeader{
+    padding: 8px 0;
+    background-color: #393939;
+    color: $ThirdFontColor;
+
+    .wrapper{
+        display: flex;
+        justify-content: space-between;
+
+        .UpperHeaderContact{
+            span{
+                display: inline-flex;
+                margin-right: 24px;
+                font-family: $SecondaryFont;
+                font-weight: 400;
+                font-size: 0.8em;
+
+                img{
+                    margin-right: 12px;
+                }
+
+            }
+        }
+
+        .UpperHeaderSocialIcon{
+            img{
+                margin-left: 16px;
+            }
+        }
+    }
+}
+
+.BottomHeader{
+    padding: 12px 0;
+    background-color: $ThirdFontColor;
+
+    .wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        h1{
+            margin: 0;
+            padding: 0;
+
+            img{
+                width: 6.5em;
+            }
+        }
+
+        .HeaderMenu{
+            span{
+                margin-left: 32px;
+                font-family: $PrimaryFont;
+                font-size: 0.9em;
+                font-weight: 600;
+                color: $FourthFontColor;
+            }
+            span:hover{
+                color: $PrimaryFontColor;
+            }
+
+            button{
+                margin-left: 32px;
+                padding: 12px 24px;
+                border: none;
+                font-family: $PrimaryFont;
+                font-size: 0.9em;
+                font-weight: 600;
+                color: $ThirdFontColor;
+                background-color: $PrimaryMainColor;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+/*Section CSS*/
+
+/*Hero Banner Section*/
+.HeroBanner{
+    .HeroBannerContent{
+
+        .HeroBannerOne{
+            min-height: calc(100vh - 120px);
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            font-family: $PrimaryFont;
+            @extend .wrapper;
+
+            p{
+                margin: 20% 0 1% 0;
+                color: $PrimaryMainColor;
+                text-transform: uppercase;
+                font-weight: 500;
+                font-size: 0.9em;
+                letter-spacing: 10px;
+            }
+
+            h2{
+                margin-bottom: 1%;
+                font-size: 2.5em;
+                line-height: 1.5em;
+                color: $ThirdFontColor;
+                text-transform: uppercase;
+            }
+
+            button{
+                padding: 12px 24px;
+                border: none;
+                font-family: $PrimaryFont;
+                font-size: 0.9em;
+                font-weight: 600;
+                color: $ThirdFontColor;
+                background-color: $PrimaryMainColor;
+                cursor: pointer;
+            }
+        }
+
+        .BackgroundBannerOne{
+            background-image: url("../images/01.png");
+            background-size: cover;
+            background-position: top;
+        }
+        .BackgroundBannerTwo{
+            background-image: url("../images/01.png");
+            background-size: cover;
+            background-position: top;
+        }
+        .BackgroundBannerThree{
+            background-image: url("../images/01.png");
+            background-size: cover;
+            background-position: top;
+        }
+    }
+
+    .arrow_prev{
+        img{
+            width: 48px;
+            position: absolute;
+            top: 54%;
+            left: 2%;
+            cursor: pointer;
+        }
+        
+    }
+
+    .arrow_next{
+        img{
+            width: 48px;
+            position: absolute;
+            top: 54%;
+            right: 2%;
+            cursor: pointer;
+        }
+    }
+}
+
+/*About Us Section*/
+.AboutUsSection{
+    h3{
+        margin: 8% 0 0 0;
+        text-align: center;
+        font-family: $SecondaryFont;
+        text-transform: uppercase;
+        letter-spacing: 12px;
+        font-size: 0.8em;
+    }
+    .InnerAboutUsSection{
+        display: flex;
+        align-items: center;
+        margin: -2% 0 6% 0;
+
+        .AboutPhone{
+            margin: 0px -32px 0 32px;
+            writing-mode: vertical-rl;
+            transform: rotate(180deg);
+            font-family: $SecondaryFont;
+            font-weight: 600;
+            font-size: 0.8em;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: $SecondFontColor;
+        }
+
+        article{
+            .wrapper{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                
+                .AboutImageOne{
+                    width: 20em;
+                    outline: 2px solid $PrimaryMainColor;
+                    outline-offset: -20px;
+                }
+
+                .AboutImageTwo{
+                    width: 10em;
+                    margin: 291px 0 0 -76px;
+                }
+                
+                .ArticleRight{
+                    margin: 0 -6% 0 6%;
+                    font-family: $SecondaryFont;
+
+                    .ArticleHeading{
+                        margin: 8% 0;
+                        padding-left: 16px;
+                        border-left: 8px solid $PrimaryMainColor;
+
+                        h4{
+                            margin: 0 0 8px 0;
+                            padding: 0;
+                            font-size: 0.9em;
+                            color: $PrimaryFontColor;
+                        }
+                        h2{
+                            margin: 0;
+                            padding: 0;
+                            font-size: 2em;
+                        }
+                    }
+
+                    p{
+                        margin: 0;
+                        padding-right: 8%;
+                        color: $SecondFontColor;
+                        font-family: $SecondaryFont;
+                        font-size: 0.8em;
+                        line-height: 18px;
+                    }
+
+                    .AboutPoints{
+                        span{
+                            display: inline-flex;
+                            align-items: center;
+                            margin: 6% 6% 0 0;
+                            font-family: $SecondaryFont;
+                            font-weight: 800;
+                            font-size: 0.7em;
+
+                            img{
+                                margin-right: 8px;
+                                width: 32px;
+                            }
+                        }
+                    }
+                }
+            }    
+        }
+
+        .AboutEmail{
+            margin: 0 32px 0 -32px;
+            writing-mode: vertical-rl;
+            font-family: $SecondaryFont;
+            font-weight: 600;
+            font-size: 0.8em;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: $SecondFontColor;
+        }
+    }
+}
+
+/*Our Project Section*/
+.OurProjectSection{
+    background-color: #f4f4f4;
+
+    .TopOurProject{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        @extend .wrapper;
+        padding: 8% 0 0 0;
+
+        h3{
+            margin: 0;
+            font-size: 2em;
+            font-weight: 800;
+            font-family: $SecondaryFont;
+            text-transform: uppercase;
+
+            span{
+                color: $PrimaryFontColor;
+            }
+        }
+        h3:after{
+            content: '\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0';
+            text-decoration: line-through 1px;
+            margin: 0 0 0 12px;
+        }
+
+        .ProjectSwitchButtons{
+            display: flex;
+
+            button{
+                padding: 12px 48px;
+                border: none;
+                color: $ThirdFontColor;
+                font-family: $PrimaryFont;
+                text-transform: uppercase;
+            }
+            .ButtonOne{
+                background-color: $PrimaryMainColor;
+                cursor: pointer;
+            }
+            .ButtonTwo{
+                background-color: $FourthFontColor;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .ProjectArrows{
+        width: 100%;
+        margin-top: 16%;
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        z-index: 10;
+        
+        .Projarrow_prev{
+            img{
+                width: 20px;
+                transform: rotate(90deg);
+                cursor: pointer;
+                margin-left: 2em;
+            }
+        }
+        
+        .Projarrow_next{
+            img{
+                width: 20px;
+                transform: rotate(270deg);
+                cursor: pointer;
+                margin-right: 2em;
+            }
+        }
+    }
+
+    .ProjectSlider{
+        padding: 4% 0 8% 0;
+        @extend .wrapper;
+        font-family: $PrimaryFont;
+
+        .ProjectWindow{
+            height: 400px;
+            position: relative;          
+            h5{
+                position: absolute;
+                bottom: 42px;
+                left: 28px;
+                color: #eb870c;
+                font-size: 1em;
+                font-weight: 400;
+                text-transform: uppercase;
+
+            }
+            p{
+                position: absolute;
+                bottom: 8px;
+                left: 28px;
+                font-size: 0.8em;
+                font-weight: 300;
+                color: #ffffff;
+                text-transform: uppercase;
+            }
+            
+
+        }
+        .ProjectWindowOne{
+            background-image: linear-gradient(to bottom, transparent, #000000), url("../images/04.png");
+            background-size: cover;
+            background-position: bottom;
+
+        }
+        .ProjectWindowtTwo{
+            background-image: linear-gradient(to bottom, transparent, #000000), url("../images/05.png");
+            background-size: cover;
+            background-position: bottom;
+
+        }
+        .ProjectWindowThree{
+            background-image: linear-gradient(to bottom, transparent, #000000), url("../images/06.png");
+            background-size: cover;
+            background-position: bottom;
+
+        }
+        .ProjectWindowFour{
+            background-image: linear-gradient(to bottom, transparent, #000000), url("../images/07.png");
+            background-size: cover;
+            background-position: bottom;
+
+        }
+    }
+}
+
+/*Investor Section Start Here*/
+.InvestorSection{
+
+    .HRLine{
+        position: absolute;
+        width: 8%;
+        z-index: 10;
+        border-bottom: 1px solid $SecondFontColor;
+        margin-top: 10%;
+    }
+    .InnerInvestorSection{
+        display: flex;
+        justify-content: space-between;
+        @extend .wrapper;
+        padding: 8% 0;
+
+        .InvestorSectionHeading{
+            padding-left: 16px;
+            border-left: 8px solid $PrimaryMainColor;
+            font-family: $SecondaryFont;
+            margin-bottom: 8%;
+
+            h5{
+                margin-bottom: 2%;
+                color: $SecondFontColor;
+                text-transform: uppercase;
+                font-size: 0.8em;
+                letter-spacing: 8px;
+            }
+            h2{
+                font-size: 2.5em;
+            }
+            h3{
+                margin-top: -2%;
+                font-size: 1.6em;
+
+                span{
+                    font-size: 1.5em;
+                    color: $PrimaryMainColor;
+                }
+            }
+        }
+    }  
+
+    p{
+        margin-bottom: 8%;
+        font-family: $PrimaryFont;
+        font-weight: 600;
+        font-size: 0.8em;
+        line-height: 2em;
+        color: $SecondFontColor;
+    }
+
+    button{
+        padding: 12px 48px;
+        border: none;
+        color: $ThirdFontColor;
+        background-color: $PrimaryMainColor;
+        font-family: $PrimaryFont;
+        font-weight: 600;
+        font-size: 0.8em;
+        cursor: pointer;
+    }
+
+    .investorsImage{
+        border: 2px solid $PrimaryMainColor;
+        width: fit-content;
+        height: fit-content;
+
+        img{
+            height: 18em;
+            outline: 2px solid $PrimaryMainColor;
+            outline-offset: -20px;
+            margin: 18px 20px -24px -20px;
+        }
+
+    }
+}
+
+.TestimonialSection{
+
+    .TestimonialArrows{
+        width: 100%;
+        margin-top: 20%;
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        z-index: 10;
+        
+        .Testarrow_prev{
+            img{
+                width: 48px;
+                transform: rotate(90deg);
+                cursor: pointer;
+                margin-left: 15em;
+            }
+        }
+        
+        .Testarrow_next{
+            img{
+                width: 48px;
+                transform: rotate(270deg);
+                cursor: pointer;
+                margin-right: 15em;
+            }
+        }
+    }
+
+    .TestimonialMiddle{
+        height: 38em;
+        text-align: center;
+        font-family: $SecondaryFont;
+        background-image: url(../images/09.png);
+        background-position: top;
+        background-size: cover;
+        color: $ThirdFontColor;
+
+        img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 8%;
+            height: 3em;
+        }
+
+        h4{
+            font-size: 2em;
+            font-weight: 500;
+            margin: 4% 0 2% 0;
+            span{
+                color: $PrimaryFontColor;
+            }
+        }
+
+        p{
+            font-weight: 400;
+            font-size: 0.8em;
+            line-height: 1.8em;
+            margin-bottom: 6%;
+        }
+
+        .Reviewer{
+            font-weight: 600;
+            color: $PrimaryFontColor;    
+        }
+
+        .CompanyName{
+            border-bottom: 1px solid $ThirdFontColor;
+        }
+    }
+}
+
+/*Career Section Start Here*/
+.CareerSection{
+    background: linear-gradient(90deg,#f4f4f4 50%,#ffffff 50%);
+
+    .wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 8% 0;
+
+        .CareerFormSection{
+            flex-basis: 50%;
+            display: flex;
+            align-items: center;
+
+            p{
+                writing-mode: vertical-rl;
+                transform: rotate(180deg);
+                font-family: $SecondaryFont;
+                font-weight: 600;
+                font-size: 0.8em;
+                letter-spacing: 10px;
+                text-transform: uppercase;
+                color: $SecondFontColor;
+                padding: 32px 0 0 42px;
+            }
+
+            form{
+                display: flex;
+                flex-direction: column;
+                width: 22em;
+
+                input, select, textarea ,button{
+                    border: none;
+                    outline: none;
+                    padding: 12px 0px 12px 12px;
+                    margin-bottom: 1em;
+                    color: $SecondFontColor;
+                }
+
+                select{
+                    color: $SecondFontColor;
+                    font-style: italic;
+
+                }
+
+                ::placeholder{
+                    color: $SecondFontColor;
+                    font-style: italic;
+                }
+
+                button{
+                    color: $ThirdFontColor;
+                    background-color: $PrimaryMainColor;
+                    font-family: $PrimaryFont;
+                    font-weight: 600;
+                    font-size: 1em;
+                    text-transform: uppercase;
+                    cursor: pointer;
+                }
+
+                textarea{
+                    height: 6em;
+                }
+
+            }
+        }
+        .CareerContactSection{
+            flex-basis: 50%;
+            align-self: center;
+
+            span{
+                display: flex;
+                align-items: center;
+                font-family: $SecondaryFont;
+                font-weight: 600;
+                font-size: 0.8em;
+                color: $SecondFontColor;
+                margin: 0 0 6% 22%;
+
+                img{
+                    height: 3em;
+                    margin-right: 24px;
+                }
+            }
+        }
+    }
+}
+
+/*Footer Starts Here*/
+footer{
+    color: $ThirdFontColor;
+    background-color: #393939;
+
+    .wrapper{
+        display: flex;
+        padding: 4% 0;
+        font-family: $SecondaryFont;
+        font-weight: 500;
+        font-size: 0.8em;
+
+        .FooterColumnOne{
+            display: flex;
+            flex-direction: column;
+            flex-basis: 34%;
+
+            .FooterLogo{
+                width: 16em;
+                height: auto;
+                margin-bottom: 12%;
+            }
+
+            .FooterSocialIcons{
+                img{
+                    margin-right: 16px;
+                }
+            }
+        }
+        .FooterColumnTwo{
+            display: flex;
+            flex-direction: column;
+            flex-basis: 22%;
+            span{
+                margin-bottom: 1em;
+            }
+        }
+        .FooterColumnThree{
+            display: flex;
+            flex-direction: column;
+            flex-basis: 22%;
+            span{
+                margin-bottom: 1em;
+            }
+        }
+        .FooterColumnFour{
+            display: flex;
+            flex-direction: column;
+            flex-basis: 22%;
+            span{
+                display: flex;
+                margin-bottom: 1em;
+                
+
+                img{
+                    height: 16px;
+                    margin-right: 12px;
+                }
+            }
+        }
+    }
+
+    .footerBottom{
+        background-color: #2d2d2d;
+        p{
+            margin: 0;
+            padding: 1.5em 0;
+            font-family: $SecondaryFont;
+            font-weight: 500;
+            font-size: 0.8em;
+            text-align: center;
+        }
+
+    }
+
+}
